@@ -23,7 +23,7 @@ You will write **three prompts**. Cortex Code does the rest.
 ### Step 1: Add the Government Essentials Data from the Marketplace
 
 1. In Snowsight, click **Data** in the left nav → **Marketplace**
-2. Search for: `Snowflake Data: Government Essentials`
+2. Search for: `Snowflake Public Data (Free)`
 3. Click the listing and click **Get**
 4. When prompted for a database name, leave the default: `GOVERNMENT__ESSENTIALS`
 5. Accept the terms and click **Get Data**
