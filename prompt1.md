@@ -1,7 +1,7 @@
-I have IRS Form 990 nonprofit data in a database called GOVERNMENT__ESSENTIALS
+I have IRS Form 990 nonprofit data in a database called PUBLIC_DATA
 (loaded from the Snowflake Marketplace - "Snowflake Data: Government Essentials").
 
-The relevant tables in GOVERNMENT__ESSENTIALS.CYBERSYN are:
+The relevant tables in PUBLIC_DATA.PUBLIC_DATA_FREE are:
 - IRS_FORM990_INDEX: columns include EIN, BUSINESS_NAME_FULL, STATE, TAX_YEAR, RETURN_TYPE
 - IRS_FORM990_TIMESERIES: columns include EIN, TAX_YEAR, FORM_TYPE, VARIABLE, VALUE
 
