@@ -25,7 +25,7 @@ You will write **three prompts**. Cortex Code does the rest.
 1. In Snowsight, click **Data** in the left nav → **Marketplace**
 2. Search for: `Snowflake Public Data (Free)`
 3. Click the listing and click **Get**
-4. When prompted for a database name, leave the default: `GOVERNMENT__ESSENTIALS`
+4. When prompted for a database name, leave the default: `PUBLIC_DATA`
 5. Accept the terms and click **Get Data**
 
 > The dataset is free and contains public IRS Form 990 data — annual financial returns filed by every US nonprofit organization.
@@ -56,7 +56,7 @@ You will write **three prompts**. Cortex Code does the rest.
 2. Copy the **Part 1 Prompt** from `prompts.md` (or the prompt card in your deck) and paste it into the Cortex Code input
 3. Press **Enter**
 4. Cortex Code will:
-   - Discover the Form 990 tables and columns in `GOVERNMENT__ESSENTIALS.CYBERSYN`
+   - Discover the Form 990 tables and columns in `PUBLIC_DATA.PUBLIC_DATA_FREE`
    - Propose a Dynamic Table definition
    - Ask for your approval before creating anything
 5. Review the proposed SQL. When satisfied, approve each step
